@@ -13,7 +13,13 @@ function save(){
 }
 
 function decrement(){
-    count--;
+    if (count <= 0){
+        countEl.innerHTML = count;
+    }
+    else{
+        count--;
+    }
+ 
     countEl.innerHTML = count;
 }
 function clr(){
