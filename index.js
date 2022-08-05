@@ -11,3 +11,17 @@ function save(){
     countEl.innerHTML = 0;
     count = 0;
 }
+
+function decrement(){
+    count--;
+    countEl.innerHTML = count;
+}
+function clr(){
+countEl.innerHTML = 0;
+count = 0;
+}
+ function del(){
+    saveEl.innerHTML = "Previous entries:";
+    countEl.innerHTML = 0;
+    count = 0;
+ }
