@@ -68,6 +68,7 @@ p{
     width: 200px;
     border-radius: 6px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 #del{
     background: black;
@@ -78,7 +79,6 @@ p{
     width: 200px;
     border-radius: 6px;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 #decrease:hover{
     border: 4px solid white;
