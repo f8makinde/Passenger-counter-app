@@ -18,9 +18,9 @@ function decrement(){
     }
     else{
         count--;
+        countEl.innerHTML = count;
     }
  
-    countEl.innerHTML = count;
 }
 function clr(){
 countEl.innerHTML = 0;
